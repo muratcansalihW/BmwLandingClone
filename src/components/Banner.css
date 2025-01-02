@@ -1,0 +1,78 @@
+@media (min-width: 1920px) {
+  .banner {
+    height: 70vh;
+  }
+}
+.banner {
+  /* background-image: url(../assets/banner.jpg); */
+  height: 90vh;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding: 10rem 0;
+}
+
+.bannerTitle {
+  color: #fff;
+  font-size: 55px;
+  line-height: inherit;
+  max-width: 700px;
+}
+
+.bannerDsc {
+  color: #fff;
+  font-size: 25px;
+}
+
+.examineBtn {
+  background-color: #1c69d4;
+  color: #fff;
+  width: 100%;
+  max-width: 250px;
+  height: 60px;
+  border: none;
+  margin-top: 1rem;
+}
+
+.examineBtn:hover {
+  background-color: #0056cc;
+}
+
+.videoTag {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  max-width: 1920px;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+@media screen and (max-width: 991px) {
+  .bannerTitle {
+    font-size: 35px;
+    max-width: unset;
+  }
+  .bannerDsc {
+    font-size: 20px;
+  }
+  .bannerTexts {
+    text-align: center;
+    position: absolute;
+    bottom: 1rem;
+  }
+  .examineBtn {
+    max-width: unset;
+  }
+}
+
+@media (max-width: 767px) {
+  .banner {
+    min-height: 100vh;
+  }
+}

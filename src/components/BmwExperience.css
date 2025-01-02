@@ -1,0 +1,50 @@
+.experienceImg {
+  width: 100%;
+  padding: 2rem;
+}
+.experienceTexts {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  padding: 1rem 2rem;
+}
+.experienceTitle {
+  font-size: 45px;
+  color: #262626;
+  margin-bottom: 1rem;
+}
+.experienceDetail {
+  font-size: 20px;
+  color: #262626;
+  margin-bottom: 2rem;
+}
+.experienceBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.3s;
+}
+.experienceBtn:hover {
+  color: #1c69d4;
+}
+.experienceImage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* mobile */
+@media screen and (max-width: 1200px) {
+  .experienceTitle {
+    font-size: 25px;
+  }
+  .experienceDetail {
+    font-size: 17px;
+  }
+}
+@media (max-width: 767px) {
+  .experienceImg {
+    padding: 1rem;
+  }
+}
+/* mobile */
