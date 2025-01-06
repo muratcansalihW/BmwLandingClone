@@ -25,7 +25,7 @@ Follow these steps to set up the project locally:
 
 
 ## Live Demo
-You can view the live demo of the project [here](https://bmwclonereact.netlify.app/).
+You can view the live demo of the project (https://bmwlanding.netlify.app/).
 
 
 ## Contribution
